@@ -1,11 +1,16 @@
-import React from 'react'
-import RenderTrackerDemo from './Render/RenderTrackerDemo'
+
+import Parent from './useCallback/Parent'
 
 const App = () => {
   return (
     <div>
-      <h1>react performance techniques</h1>
-      <RenderTrackerDemo />
+      
+      {/* React.memo */}
+      {/* <RenderTrackerDemo /> */}
+
+       {/* useCallBack */}
+       <Parent />
+
     </div>
   )
 }

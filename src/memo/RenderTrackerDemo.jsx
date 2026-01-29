@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RenderTracker } from "./RenderTracker";
-
+ 
 const RenderTrackerDemo = () => {
   const [value, setValue] = useState("");
   const [childProp, setChildProp] = useState("prop from parent");
