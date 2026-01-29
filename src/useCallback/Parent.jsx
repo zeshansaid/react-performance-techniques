@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import Child from "./Child";
 
 export default function Parent() {
     const [value, setValue] = useState("");
     console.log("Parent rendered");
 
-    const handleChildClick = () => {
+    const handleChildClick = useCallback(() => {
         alert("Child clicked");
-    };
+    }, []);
 
     return (
         <div>
