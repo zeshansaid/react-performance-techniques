@@ -1,7 +1,7 @@
 echo "# react-performance-techniques" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "unnecessary re-render"
 git branch -M main
 git remote add origin https://github.com/zeshansaid/react-performance-techniques.git
 git push -u origin main
